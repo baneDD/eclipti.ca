@@ -27,9 +27,11 @@ const ComingSoon = ({ image, title, heading, subheading, description }) => {
       </Helmet>
       <div className="coming-soon">
         <div className="coming-soon-left">
-          <img className={"logo-img"} src={logo} alt={"Ecliptica Incorporated"} />
-          <h1>{heading}</h1>
-          <h3>{subheading}</h3>
+          <div className="left-container">
+            <img className={"logo-img"} src={logo} alt={"Ecliptica Incorporated"} />
+            <h1>{heading}</h1>
+            <h3>{subheading}</h3>
+          </div>
         </div>
         <div
           className="coming-soon-right"
