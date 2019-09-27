@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "lib": ["es6", "dom"],
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitReturns": true,
+    "jsx": "react",
+    "rootDir": "src",
+    "strict": true,
+    "target": "es5"
+  },
+  "include": [".storybook", "src", "*.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
+}

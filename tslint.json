@@ -1,0 +1,26 @@
+{
+  "extends": [
+    "tslint:latest",
+    "tslint-react-hooks",
+    "tslint-config-prettier",
+    "tslint-sonarts"
+  ],
+  "rules": {
+    "curly": [true, "ignore-same-line"],
+    "interface-name": [true, "never-prefix"],
+    "member-access": [true, "no-public"],
+    "no-console": false,
+    "no-empty-interface": false,
+    "no-implicit-dependencies": [true, "dev"],
+    "no-submodule-imports": false,
+    "ordered-imports": false,
+    "object-literal-sort-keys": false,
+    "react-hooks-nesting": "error",
+    "variable-name": {
+      "options": ["allow-leading-underscore", "allow-pascal-case"]
+    }
+  },
+  "linterOptions": {
+    "exclude": ["src/generated/*"]
+  }
+}
