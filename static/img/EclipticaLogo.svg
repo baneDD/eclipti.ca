@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="623" height="1046" viewBox="0 0 623 1046">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #03fce7;
+        fill-rule: evenodd;
+      }
+
+      .cls-2 {
+        fill: #036eb1;
+      }
+    </style>
+  </defs>
+  <g id="EclipticaArtboard">
+    <path class="cls-1" d="M756,53c12.977,16.356-161.865,119.937-211,323-83.486,345.028,260.478,664.78,211,713-51.158,49.86-521.6-178.282-518-518C241.665,224.814,734.806,26.288,756,53Z" transform="translate(-238 -50)"/>
+    <circle class="cls-2" cx="505" cy="394" r="118"/>
+  </g>
+</svg>
